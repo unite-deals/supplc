@@ -28,8 +28,19 @@ from utils.plot import (
     distribution,
     abc_barplot)
 
+hide_github_link_style = """
+    <style>
+        .viewerBadge_container__1QSob {
+            display: none !important;
+        }
+    </style>
+"""
+
+
+st.markdown(hide_github_link_style, unsafe_allow_html=True)
+
 # Set page configuration
-st.set_page_config(page_title ="Statistical Product Segmentation",
+st.set_page_config(page_title ="Statistical AI-ML Supply-Chain Segmentation",
                     initial_sidebar_state="expanded",
                     layout='wide',
                     page_icon="🛒")
