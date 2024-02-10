@@ -16,7 +16,7 @@ def introduction():
         st.sidebar.markdown('''👁️‍🗨️ [User Guide](https://www.technoglobalgroupllc.com/services)''')
     with st.beta_expander('''How can this app help you?'''):
         st.write('''This  Web Application has been designed for **Supply Chain Engineers** to support them in their **Inventory Management**.
-        It will help you to automate **product segmentation using MAchine Learning statistics**.''')
+        It will help you to automate **product segmentation using Machine Learning statistics**.''')
         st.markdown(
     """
     1. 💾 Upload a dataset or use the example  _(If you use the example you do not need to follow the next steps.)_
@@ -27,7 +27,7 @@ def introduction():
     6. 🖱️  Click on **Start Calculation?** to launch the analysis
      
     \
-    _For more details have a look at the [📖 User Guide](https://www.technoglobalgroupllc.com/)_
+    _For more details Statistical AI-ML Supply-Chain Segmentation [📖 User Guide](https://www.technoglobalgroupllc.com/)_
 
     """)
 
@@ -136,7 +136,7 @@ def normality_ui():
 ''')
     st.markdown(
         '''
-This model is using the Shapiro-Wilk test for normality implemented using Scipy library of python 
+This model is using the Shapiro-Wilk test for normality implemented using Scipy library of python Statistical AI-ML Supply-Chain Segmentation
 _(**[Documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html)**)_.
 ''')
 
